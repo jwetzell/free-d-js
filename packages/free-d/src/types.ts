@@ -1,5 +1,5 @@
 export enum FreeDMessageType {
-  Position = 0xd1
+  Position = 0xd1,
 }
 
 export type FreeDPosition = {
