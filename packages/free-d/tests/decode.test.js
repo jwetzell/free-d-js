@@ -1,6 +1,6 @@
 const { deepEqual, throws } = require('assert');
 const { describe, it } = require('node:test');
-const { decode } = require('../dist/cjs');
+const { decode } = require('@jwetzell/free-d');
 
 const goodTests = [
   {

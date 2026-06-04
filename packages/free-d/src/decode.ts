@@ -1,4 +1,4 @@
-import { FreeDPosition, FreeDMessageType } from './types';
+import { type FreeDPosition, FreeDMessageType } from './types';
 import { checksum, freeDUnitsToPosition, freeDUnitsToRotation } from './utils';
 
 function bytesToPositionMessage(bytes: Uint8Array): FreeDPosition {
